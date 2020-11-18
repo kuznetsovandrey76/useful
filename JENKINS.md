@@ -15,6 +15,7 @@ if you run docker-compose on port 8080 you need `docker-compose down`
 -	Pipeline
 - Pipeline Utility Steps
 - Blue Ocean
+- NodeJS
 
 ```
 # Pipeline Utility Steps
