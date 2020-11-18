@@ -10,3 +10,8 @@ http://localhost:8080/
 
 ## Help
 if you run docker-compose on port 8080 you need `docker-compose down`
+
+## Plugins
+-	Pipeline
+- Pipeline Utility Steps
+- Blue Ocean
