@@ -15,3 +15,9 @@ if you run docker-compose on port 8080 you need `docker-compose down`
 -	Pipeline
 - Pipeline Utility Steps
 - Blue Ocean
+
+```
+# Pipeline Utility Steps
+def config = readYaml file: './src/config.yaml'
+/var/lib/jenkins/workspace/PIPLINE-NAME/src/config.yaml
+```
