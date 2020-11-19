@@ -22,3 +22,8 @@ if you run docker-compose on port 8080 you need `docker-compose down`
 def config = readYaml file: './src/config.yaml'
 /var/lib/jenkins/workspace/PIPLINE-NAME/src/config.yaml
 ```
+
+## Permission
+sudo chown -R jenkins:jenkins /var/log/jenkins
+sudo chown -R jenkins:jenkins /var/lib/jenkins
+sudo chown -R jenkins:jenkins /var/cache/jenkins
